@@ -1,0 +1,92 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+section{
+ position: relative;  
+ width: 100%; 
+ min-height: 100vh;
+ display: flex;  
+ justify-content: space-between;
+ background: url(1.jpeg) no-repeat center center; 
+ background-size:cover ;
+ padding: 100px;   
+}
+header{
+ position: absolute;
+ top: 0;  
+ left: 0;  
+ width: 100%;
+ padding:  100px; 
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center;   
+}
+header .logo{
+   max-width: 90px ; 
+}
+.content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+content.text{
+ position: relative;
+ max-width: 600px;
+ max-height: 500px;
+}
+ h2{
+ color: rgb(76, 55, 97);
+ font-size: 30px;
+ line-height: 1.5em;
+ font-weight: bold;
+ letter-spacing: 5px;
+ transition: 0.5s ease;
+}
+h2:hover{
+ font-size: 60px;
+ box-shadow: 3px 3px 20px rgba(15, 87, 231, 0.6) ;
+ padding: 10px;
+}
+p{
+  margin: 10px 0; 
+  color: rgb(15, 76, 117);
+  font-size: 20px; 
+  text-align: justify;      
+}
+a{
+ margin-top: 20px; 
+ padding: 10px 20px;
+ color: rgb(66, 19, 23);  
+ background: rgba(255, 255, 255, 0.678); 
+ border-radius: 25px; 
+ font-weight: bold;
+ text-decoration: none;
+ display: inline-block;
+ letter-spacing: 2px;    
+}
+.imgbox img{
+max-width: 400px;
+max-height: 200px;
+}
+.intc{
+ position: absolute; 
+  left: 50%; 
+  bottom: 10%;
+  transform: translatey(-20%);     
+}
+.intc li{
+list-style:none ;
+margin:0 5px ;
+cursor: pointer;
+transition: 0.5s ease;
+}
+.intc li :hover{
+transform: translatex(+40px);
+} 
+.intc li img{
+ max-width: 150px;         
+}
